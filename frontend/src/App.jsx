@@ -11,6 +11,7 @@ import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Order from './pages/Order'
 import Hero from './components/Hero'
+import Footer from './components/Footer'
 Hero
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path='/place-order' element={<PlaceOrder />} />
         <Route path='/order' element={<Order />} />
       </Routes>
+      <Footer/>
     </div>
   )
 }
