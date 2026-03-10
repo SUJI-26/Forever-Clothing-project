@@ -10,10 +10,9 @@ const Footer = () => {
           <img src={assets.logo} className="mb-5 w-32" alt="" />
 
           <p className="w-full md:w-2/3 text-gray-600">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint nulla
-            esse aspernatur modi dignissimos perferendis delectus enim sunt,
-            veniam facilis ducimus expedita obcaecati quis quaerat amet aut
-            laudantium maxime sequi.
+            We provide high-quality products designed to deliver reliability,
+            performance, and value. Our focus is to create simple solutions that
+            improve everyday experiences for our customers.
           </p>
         </div>
 
