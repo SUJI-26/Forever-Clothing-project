@@ -101,13 +101,13 @@ const Product = () => {
 
             <p>Select Size</p>
 
-            <div className="flex gap-2">
+            <div className="flex gap-2 ">
 
               {productData.sizes?.map((item, index) => (
                 <button
                   key={index}
                   onClick={() => setSize(item)}
-                  className={`border py-2 px-4 bg-gray-100 ${
+                  className={`border py-2 px-4 bg-gray-100  cursor-pointer ${
                     item === size ? "border-orange-500" : ""
                   }`}
                 >
@@ -117,7 +117,7 @@ const Product = () => {
 
             </div>
 
-            <button onClick={()=>addToCart(productData._id,size)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700">
+            <button onClick={()=>addToCart(productData._id,size)} className="bg-black text-white px-8 py-3 text-sm active:bg-gray-700  cursor-pointer hover:bg-green-800">
               ADD TO CART
             </button>
 
