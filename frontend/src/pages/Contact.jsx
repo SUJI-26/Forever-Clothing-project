@@ -24,8 +24,10 @@ const Contact = () => {
           <p className="font-semibold text-xl text-gray-600">Our Store</p>
 
           <p className="text-gray-500">
-            39299 William Station <br />
-            Suite 23, Washington, USA
+            No. 45, Anna Salai<br />
+            Teynampet <br/>
+            Chennai, Tamil Nadu – 600018 <br/>
+            India
           </p>
 
           <p className="text-gray-500">
