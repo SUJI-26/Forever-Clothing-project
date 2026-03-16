@@ -50,9 +50,7 @@ const Contact = () => {
         </div>
 
       </div>
-
       <NewsletterBox />
-
     </div>
   );
 };
